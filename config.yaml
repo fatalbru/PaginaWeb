@@ -58,7 +58,11 @@ params:
   aboutme:
     title: Sobre mi
     icon: fas fa-user
-    description: Hola soy Henry, un estudiante de 19 años de la carrera de Ingeniería Informática, apasionado por la tecnología y el desarrollo de software. Con un carácter divertido, pero también responsable, me gusta equilibrar mi tiempo entre los estudios y mis intereses personales. Tengo conocimientos básicos en programación y me emociona la idea de seguir aprendiendo y superando nuevos desafíos en mi recorrido universitario. Además de la informática, tengo un gran gusto por los videojuegos, el diseño digital y la animación, áreas en las que me gustaría profundizar más.
+    description: "Hola soy Henry, un estudiante de 19 años de la carrera de Ingeniería Informática, apasionado por la tecnología 
+    y el desarrollo de software. Con un carácter divertido, pero también responsable, me gusta equilibrar mi tiempo entre los estudios 
+    y mis intereses personales. Tengo conocimientos básicos en programación y me emociona la idea de seguir aprendiendo y superando nuevos desafíos 
+    en mi recorrido universitario. Además de la informática, tengo un gran gusto por los videojuegos, el diseño digital y la animación, áreas en las 
+    que me gustaría profundizar más. Lol"
   experience:
     title: Experiencias
     icon: fas fa-briefcase
