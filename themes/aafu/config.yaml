@@ -1,0 +1,153 @@
+baseURL: https://aafu.pages.dev/
+languageCode: en-us
+build:
+  writeStats: true
+params:
+  title: aafu theme
+  author: Darshan Baral
+  description: Website title
+  copyright: >-
+    powered by [hugo](https://gohugo.io/) & deployed on
+    [Cloudflare](https://www.cloudflare.com/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Henry Manuel Quispe Mamani"
+    tagline: Estudiante de Ingenieria Informatica
+    location: "Oruro, Bolivia"
+    photo: 749807.png
+  social:
+    title: Links
+    list:
+      - icon: fab fa-linkedin-in
+        url: "https://www.linkedin.com/in/henry-manuel-quispe-mamani-7b1882327/"
+        title: LinkedIn
+      - icon: fab fa-github
+        url: "https://github.com/fatalbru"
+        title: GitHub
+      - icon: fab fa-twitter
+        url: "https://x.com/fatalbru"
+        title: Twitter
+      - icon: fab fa-youtube
+        url: "https://www.youtube.com/@henrymanuelquispemamani5596"
+        title: Youtube
+      - icon: fab fa-facebook
+        url: "https://www.facebook.com/henrymanuel.quispemamani"
+        title: Facebook
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: education
+    - item: publication
+    - item: project
+    - item: skill
+    - item: hobby
+  aboutme:
+    title: Sobre mi
+    icon: fas fa-user
+    description: Hola soy Henry, un estudiante de 19 años de la carrera de Ingeniería Informática, apasionado por la tecnología y el desarrollo de software. Con un carácter divertido, pero también responsable, me gusta equilibrar mi tiempo entre los estudios y mis intereses personales. Tengo conocimientos básicos en programación y me emociona la idea de seguir aprendiendo y superando nuevos desafíos en mi recorrido universitario. Además de la informática, tengo un gran gusto por los videojuegos, el diseño digital y la animación, áreas en las que me gustaría profundizar más.
+  experience:
+    title: Experiencias
+    icon: fas fa-briefcase
+    list:
+      - position: Participante de las Olimpiadas Cientificas
+        dates: 2015 - 2019
+        url: "https://olimpiada.minedu.gob.bo/"
+        company: Olimpiadas Cientificas Estudiantiles Plurinacional de Bolivia
+        details: |1-
+          Fue una experiencia grata de un mundo nuevo como es la tecnologia en mi formacion como estudiante
+      - position: Auxiliar de Docencia - MAT1207
+        dates: II/2024
+        company: Departamento de Matematicas
+        details: 
+          Invitado como Auxiliar de Docencia en la materia de Ecuaciones Diferenciales I
+  education:
+    title: Educacion
+    icon: fas fa-graduation-cap
+    list:
+      - degree: Ph.D. in Subject
+        college: University of State-City
+        dates: 2013 - 2018
+        
+        degree: Estudiante de Ingenieria Informatica
+        college: Facultad Nacional de Ingenieria
+        dates: 2023 - Presente
+
+      - degree: Diplomado de Bachiller en Humanidades
+        college: Colegio Ignacio León 2
+        dates: 2010 - 2022
+
+  publication:
+    title: Publicaciones
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Articulos de periodico
+      - Proceedings
+    list:
+      - title: "Alumnos crean 60 videojuegos para olimpiada"
+        authors: "Aleja Cuevas"
+        date: "22 de julio del 2015"
+        journal: "La Razon"
+        url: "https://dev-qa.la-razon.com/sociedad/2015/07/22/alumnos-crean-60-videojuegos-para-olimpiada-2/"
+        type: Articulos de periodico
+
+      - title: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        authors: "F Last, F Second, P secondary"
+        date: "2018"
+        journal: "Journal of Field 52 (16), 9033-9044"
+        url: "#"
+        type: Proceedings
+  project:
+    title: Proyectos
+    icon: fas fa-project-diagram
+    list:
+      - title: Proyecto 1
+        url: "https://github.com/fatalbru/ProyectoJava"
+        description: Un programa de sistema de ventas con base de datos (MySQL) en el lenguaje de programacion Java con el entorno de NetBeans
+      - title: Proyecto 2
+        url: "https://github.com/fatalbru/PaginaWeb"
+        description: Mi pagina web personal hecho con ayuda del framework HUGO, en el entorno de VisualStudioCode
+      - title: Project 3
+        url: "#"
+        description: Description of the project
+      - title: Project 4
+        url: "#"
+        description: Description of the project
+  skill:
+    title: Habilidades
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - skill: "Responsabilidad Estudiantial"
+        skillrating: 70
+      - skill: "Programacion Competitiva"
+        skillrating: 40
+      - skill: "Lenguaje Ingles"
+        skillrating: 20
+  hobby:
+    title: Hobbies
+    icon: fas fa-gamepad
+    list:
+      - hobby: Jugar Videojuegos
+      - hobby: Frikkie
+      - hobby: Baking
