@@ -125,10 +125,10 @@ params:
     title: Proyectos
     icon: fas fa-project-diagram
     list:
-      - title: Proyecto 1
+      - title: Proyecto de Sistema de Ventas con Java y MySQL
         url: "https://github.com/fatalbru/ProyectoJava"
         description: Un programa de sistema de ventas con base de datos (MySQL) en el lenguaje de programacion Java con el entorno de NetBeans
-      - title: Proyecto 2
+      - title: Proyecto de la Pagina Web Personal
         url: "https://github.com/fatalbru/PaginaWeb"
         description: Mi pagina web personal hecho con ayuda del framework HUGO, en el entorno de VisualStudioCode
       - title: Project 3
@@ -142,7 +142,7 @@ params:
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Responsabilidad Estudiantial"
+      - skill: "Responsabilidad Estudiantil"
         skillrating: 70
       - skill: "Programacion Competitiva"
         skillrating: 40
