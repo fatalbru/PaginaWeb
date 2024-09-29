@@ -138,6 +138,8 @@ params:
         skillrating: 50
       - skill: "Programacion Competitiva"
         skillrating: 40
+      - skill: "Resolucion de Cubos Rubik"
+        skillrating: 15
       - skill: "Lenguaje Ingles"
         skillrating: 20
       - skill: "Lenguaje de Programacion C++"
@@ -156,4 +158,5 @@ params:
       - hobby: Anime
       - hobby: Musica
       - hobby: Tecnologia
+      - hobby: Cubos Rubik
       - hobby: Ciencias
