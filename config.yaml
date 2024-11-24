@@ -6,9 +6,6 @@ params:
   title: WebHenryinf
   author: Darshan Baral
   description: Website title
-  copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -121,12 +118,12 @@ params:
       - title: Proyecto de la Pagina Web Personal
         url: "https://github.com/fatalbru/PaginaWeb"
         description: Mi pagina web personal hecho con ayuda del framework HUGO, en el entorno de VisualStudioCode
-      - title: Proyecto de Sistema Web de Reserva de Hoteles con PHP y MySQL
-        url: "#"
-        description: Aun en desarrollo
+      - title: Proyecto de Pagina Web de Calendario Navideño
+        url: "https://webcalendariohmqm.vercel.app/"
+        description: Una pagina web hecho totalmente en Python con ayuda del framework Reflex
       - title: Aplicacion Web de Viajes Interdepartamentales e Interprovinciales en Oruro
-        url: "#"
-        description: Quiqui-Tur. Aun en desarrollo
+        url: "https://github.com/sis-inf/quirqui-tour-front"
+        description: El sistema Quirqui-Tur es una pagina web que fomenta el turismo e informa sobre el transporte interdepartamental e interprovincial en Oruro asi como precio de pasajes.
   skill:
     title: Habilidades
     panelId: skill-panel
